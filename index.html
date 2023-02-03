@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").toggleClass("main");
+      });
+      $("#one").click(function() {
+    $("#two").toggle();
+});
+    });
+    console.log("I built this website :)");
+    
+    </script>
+    <style>
+      body {margin:25px;}
+
+
+      .green-text{
+color: #008000;
+position: center;
+text-decoration: none;
+}
+
+
+
+.center {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 20%;
+  max-width: 50%;
+  height: auto;
+  border-image-outset: 40px 40px;
+  border: black;
+  border-style: dashed;
+  border-radius: 100px;
+  text-decoration:none;
+}
+
+.blue-text{color: #58a8c8;
+position: center;
+text-decoration: none;}
+.white-text{color:  #d4e7ee}
+.pink-text{color: #ff00a6}
+.purple-text{color:rgb(176, 129, 200)}
+      .gradient-box{
+background-image: radial-gradient(rgb(212, 222, 122),rgb(165, 141, 141),rgb(90, 85, 162),black)}
+      .main {
+      font-size: 110%;
+      font-family:  Courier, (monospace);
+      color: red;
+      font-family: oblong,sans-serif;
+text-align: center;
+text-decoration:initial;
+    }
+#two{
+
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background:rgb(0, 0, 0); 
+ 
+  display:none;
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  border:30px;
+  border: #b4e2da;
+  color:rgb(255, 236, 23);
+  text-align: center;
+ 
+}
+      .block {
+        font-family: 'Shrikhand', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  border: #000000;
+  background-color: #000000;
+  color: rgb(238, 206, 76);
+  border-style: dashed;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+  
+    
+      .ul {
+        text-decoration: none;
+        display: inline-block;
+    max-width:10%; /* limit width */
+    word-break:break-all; /* wrap extended text*/
+    border:1px solid rgb(0, 0, 0) /* demo */
+    }
+    body {
+      text-decoration: none;
+  margin: 1rem;
+  font-family: 'Shrikhand', cursive;
+  line-height: 1.5;
+  font-variant: small;
+  background:Black;
+  font-optical-sizing: 100px;
+  color:rgb(238, 206, 76);
+
+}
+li{
+  display: table;
+  text-decoration: none;
+  position: inherit;
+    font-size: 28px;
+    margin-left: auto;
+  margin-right: auto;
+    max-width:45%; /* limit width */
+    word-break:break-all; /* wrap extended text*/
+    border:1px solid rgb(0, 0, 0) /* demo */
+}
+
+
+.block:hover {  background-color: #e5e5e5;
+}
+.flex-wrap>div a:hover {  background-color: #e5e5e5;
+}
+
+
+.flex-wrap {
+  text-decoration: none;
+  text-decoration:none;
+  display: table-row;
+    font-size: 40px;
+  text-align: center;
+    Height:600px;
+  Width:600px;
+  flex-direction: column;
+  padding:10px;
+  font-family:  Courier, (monospace);
+ 
+}
+flex-wrap> div { 
+
+  text-decoration: none;
+    font-size: 40px;
+  flex-direction: row;
+  Height:600px;
+  Width:600px;
+ padding-left: 50px;
+ text-decoration:none
+}
+.flex-wrap {display: table-row;
+  text-decoration: none;
+    font-size: 40px;
+  text-align: center;
+    Height:600px;
+  Width:600px;
+  flex-direction: column;
+  padding:10px;
+  font-family:  Courier, (monospace);
+  text-decoration:none}
+.noiseoverlay {
+    margin: 0;
+    position: absolute;
+    z-index: 30;
+    height: 900vh;
+    width: 300vw;
+    mix-blend-mode: luminosity;
+    pointer-events: none;
+    filter: contrast(10%);
+    opacity:25%;
+    overflow-clip-margin: content-box;
+    overflow: inherit;
+}
+
+    </style>
+    </head>
+    <body>
+      <img class="noiseoverlay" src="grain.jpg">
+  <img src="film.jpg" class="center" style="width:100%">
+  </div>
+</div>
+      <Title> Ketevans hompage </Title>
+      
+      <div id="one">
+      <button type="one"  class="block"> Welcome to Ketis homepage!</button>  
+  
+       </div>
+       <div id="two">
+       Glad to have you here!
+       </div>
+      <li>1   <p> I took computer science in highschool where we largely focused on python and a bit of javascript. 
+        However last semester I learned more about coding in general using more html/css and a bit of JS</p></li>
+    </li> 
+      <li>2  <p> Javascript was the most confusing for me because the material wasn't fully covered in my class, so I wasn't able to comfortably start using it </p></li>
+
+      <li>3  <p> Right now I am not that well versed in coding so I hope to see how getting better at coding might show me how I would even want to use it </p></li>
+       
+      <li>4 <p> Html is required however css makes it look pretty and java makes it interactive and complex</p></li>
+      <li>5<p> Github hosts your code, and when you work on it the previous version that's saved on github isn't impacted. Github shows when you make progress and also allows others to look at your code </p></li>
+       <li>6
+
+<h1>Caesar salad</h1>
+<h2>Watermelon</h2>
+<h3>Caesar salad wrap</h3>
+<h4>Lindt chocolate</h4>
+<h5>Shrimp tempura
+</h5><h6>French fries</h6></li> 
+
+      
+      <div class= "flex-wrap">
+     <div>
+      <a id=link href="https://www.basedesign.com">1 Base Desgin studio </a>
+      <p> one of my favorite graphic design studios whose website is also pretty interactive. I get inspired by them on how to make my work interesting but also not too busy. The colors and type choices they use are also important to me in my work so seeing them be able to make strong choices in their designs helps me see what works in different designs.
+      </p>
+     </div>
+     <div>
+       <a id=link href=" https://www.pinterest.com">2 Pinterest </a>
+       <p>Pinterest is helpful for me in developing mood boards and getting inspired for almost any
+        project I create. Also because Im always on there browsing different peoples work I am constantly getting inspired by others designs. I also save alot of work I enjoy which has helped me see what type of designs I enjoy most weather they are more minimalist or maximalist. 
+        </p>
+     </div>
+     <div>
+       <a id=link href="https://www.youtube.com "> 3 Youtube</a>
+       <p> A lot of times when I need help or inspiration for the stuff I code, I go to youtube. One particular channel that is helpful with web design is Hyperflexed. They also help me see whats works with user experience and what works better aesthetically on apps and websites overall.
+      </p>
+
+     </div>
+    
+
+     <div class= "flex-wrap2">
+      <h1>Portugal</h1>
+      <div>
+       <a id=link href="https://goo.gl/maps/b2NN5mWgcx8w9o319">Lisbon</a>
+      <div>
+        <a id=link href="https://goo.gl/maps/JaY6kXRWnkbAyyPS7">Porto
+        </a>
+      </div>
+      <div>
+        <a id=link href="https://goo.gl/maps/Fpn8sTynokKoBHAZA ">Coimbra
+        </a>
+        <h1>Germany</h1>
+        <div>
+         <a id=link href="https://goo.gl/maps/FxPzZpAbVmPvM3dh7">Berlin
+          </a>
+        <div>
+          <a id=link href="https://goo.gl/maps/ypTrKS5vUFA74ZRBA"> 
+            Munich 
+           
+          </a>
+        </div>
+        <div>
+          <a id=link href="https://goo.gl/maps/jKLEXR5MLeeXSoo78">Haamburg
+          </a>
+          <h1>Denmark</h1>
+          <div>
+           <a id=link href="https://goo.gl/maps/A1iC7g1JADXmQHkM9">Copenhagen
+
+            
+            </a>
+          <div>
+            <a id=link href="https://goo.gl/maps/7REBQhonDvVEf13x9"> 
+              Odensa
+
+             
+            </a>
+          </div>
+          <div>
+            <a id=link href="https://goo.gl/maps/5BgSsxLVezSSfdsM9 ">Helsingør
+            </a>
+  
+      </div>
+     
+     </div>
+     <some text only seen in the code!>
+      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentcolor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+        <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+        <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+        <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+      </svg>
+
+  
+      
+      <ul class="green-text ">
+        <li>Wallows</li>
+      </ul>
+      <ul class="blue-text">
+        <li>Mac miller</li>
+      </ul>
+      <ul class="white-text">
+        <li>Frank ocean</li>
+      </ul>
+      <ul class="pink-text">
+        <li>Joji</li>
+      </ul>
+      <ul class="purple-text">
+        <li>SZA</li>
+      </ul>
+      
+    <ul class="gradient-box">
+      <li>Gradiants work in css by mixing the opacity of colors from two or more points. </li>
+    </ul>
+    <img src="film.jpg" class="center" style="width:100%">
+    <p>I would like my homepage to be calm and serene but also have a vintage feel. The current tone isn't exactly what I am going for, I wish I could add a grain over the homepage fully. 
+
+    </p>
+    </body>
+  
+  </head>
+</html>
